@@ -1,0 +1,37 @@
+.features__details {
+    @extend %align;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+
+    background-color: var(--third-bg-color);
+}
+
+.features__icon {
+    width: 70px;
+    height: 70px;
+}
+
+.features {
+    display: flex;
+    column-gap: 30px;
+}
+
+.features__card {
+    flex-basis: calc((100% - 90px) / 4);
+}
+
+.features__title {
+    margin-bottom: 10px;
+
+    color: var(--title-text-color);
+    font-size: var(--primary-font-size);
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.features__text {
+    font-size: var(--primary-font-size);
+    line-height: 1.71;
+}
