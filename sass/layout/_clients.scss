@@ -1,14 +1,14 @@
-.clients {
+.clients-list {
     display: flex;
     column-gap: 30px;
 }
 
-.clients__card {
+.clients-list__item {
     width: 170px;
     height: 92px;
 }
 
-.clients__link {
+.clients-list__link {
     @extend %align;
     height: 100%;
     border: 1px solid #afb1b8;
@@ -22,15 +22,15 @@
     }
 }
 
-.clients__icon {
+.clients-list__icon {
     width: 106px;
     height: 60px;
     fill: var(--social-icon-color);
 
     transition: fill var(--transition-dur-and-func);
 
-    .clients__link:hover &,
-    .clients__link:focus & {
+    .clients-list__link:hover &,
+    .clients-list__link:focus & {
         fill: var(--accent-color);
     }
 }

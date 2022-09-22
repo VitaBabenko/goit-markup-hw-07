@@ -1,66 +1,51 @@
-.contacts {
+.page-header {
+    border-bottom: 1px solid #ececec;
+}
+
+.page-header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-list {
     display: flex;
     align-items: center;
 }
 
-.contacts__mail {
+.contact-list__link {
     display: flex;
     align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    transition: color var(--transition-dur-and-func);
+
+    color: var(--primary-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: var(--nav-letter-spacing);
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.contact-list__link_margin {
     margin-right: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    
-    transition: color var(--transition-dur-and-func);
-    
-    color: var(--primary-text-color);
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: var(--nav-letter-spacing);
-    text-decoration: none;
-    
-    &:hover,
-    &:focus {
-        color: var(--accent-color);
-    }
 }
 
-.contacts__link {
-    display: flex;
-    align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
-
-    transition: color var(--transition-dur-and-func);
-
-    color: var(--primary-text-color);
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: var(--nav-letter-spacing);
-    text-decoration: none;
-
-    &:hover,
-    &:focus {
-        color: var(--accent-color);
-    }
-}
-
-.contacts__icon {
+.contact-list__icon {
     margin-right: 10px;
 
     transition: fill var(--transition-dur-and-func);
 
     fill: var(--primary-text-color);
 
-    .contacts__link:hover &,
-    .contacts__link:focus & {
-        fill: var(--accent-color);
-    }
-
-    .contacts__mail:hover &,
-    .contacts__mail:focus & {
+    .contact-list__link:hover &,
+    .contact-list__link:focus & {
         fill: var(--accent-color);
     }
 }
-
- 
-

@@ -1,10 +1,10 @@
-.projects {
+.project {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.projects__link {
+.project__link {
     display: block;
     text-decoration: none;
 
@@ -17,12 +17,12 @@
     }
 }
 
-.projects__container {
+.project__wrapper {
     position: relative;
     overflow: hidden;
 }
 
-.projects__overlay {
+.project__overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -40,34 +40,34 @@
     font-size: var(--projects-title-font-size);
     line-height: 1.56;
 
-    .projects__link:hover &,
-    .projects__link:focus & {
+    .project__link:hover &,
+    .project__link:focus & {
         transform: translateY(0%);
     }
 }
 
-.filter-projects {
+.filter-project {
     display: flex;
     column-gap: 8px;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-.projects__border {
+.project__border {
     padding: 20px 24px;
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
     border-left: 1px solid #eeeeee;
 }
 
-.projects__title {
+.project__title {
     color: var(--title-text-color);
     font-size: var(--projects-title-font-size);
     line-height: 2;
     letter-spacing: var(--hero-letter-spacing);
 }
 
-.projects__text {
+.project__text {
     margin-top: 4px;
 
     color: var(--primary-text-color);

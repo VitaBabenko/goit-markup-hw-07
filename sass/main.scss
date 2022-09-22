@@ -3,26 +3,25 @@
 @import './utils/visually-hidden';
 
 @import './base/common';
+@import './base/wrapper';
+@import './base/reset';
 @import './base/section';
-@import './base/container';
 
-@import './components/section-title';
 @import './components/logo';
-@import './components/contacts-header';
-@import './components/footer-contacts';
+@import './components/button';
+@import './components/footer-contact';
 @import './components/footer-form';
 @import './components/backdrop';
 @import './components/modal-window';
 @import './components/modal-form';
+@import './components/header';
+@import './components/footer';
 
-@import './layout/header';
-@import './layout/site-nav';
+@import './layout/page-nav';
 @import './layout/hero';
-@import './layout/button';
 @import './layout/features';
 @import './layout/work';
 @import './layout/team';
 @import './layout/clients';
 @import './layout/portfolio';
 @import './layout/projects';
-@import './layout/footer';

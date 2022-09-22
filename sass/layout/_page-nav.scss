@@ -3,12 +3,12 @@
     align-items: center;
 }
 
-.site-nav {
+.menu-list {
     display: flex;
     column-gap: 50px;
 }
 
-.site-nav__link {
+.menu-list__link {
     position: relative;
     display: block;
     padding-top: 32px;
@@ -28,11 +28,11 @@
     }
 }
 
-.site-nav__link .site-nav__link_current {
+.menu-list__link .menu-list__link_current {
     color: var(--accent-color);
 }
 
-.site-nav__link_current::after {
+.menu-list__link_current::after {
     position: absolute;
     left: 0;
     bottom: -1px;

@@ -1,17 +1,17 @@
 .work {
+    padding-top: 0;
+}
+
+.work-list {
     display: flex;
     column-gap: 30px;
 }
 
-.work__section {
-    padding-top: 0;
-}
-
-.work__container {
+.work-list__wrapper {
     position: relative;
 }
 
-.work__text {
+.work-list__text {
     @extend %align;
 
     position: absolute;

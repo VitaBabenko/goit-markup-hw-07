@@ -1,4 +1,4 @@
-.features__details {
+.features__wrapper {
     @extend %align;
     width: 270px;
     height: 120px;
@@ -18,7 +18,7 @@
     column-gap: 30px;
 }
 
-.features__card {
+.features__item {
     flex-basis: calc((100% - 90px) / 4);
 }
 
