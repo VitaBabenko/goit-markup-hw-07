@@ -51,7 +51,7 @@ body {
   letter-spacing: var(--primary-letter-spacing);
 }
 
-.wrapper {
+.container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -408,7 +408,7 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
-.page-header__wrapper {
+.page-header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -455,7 +455,7 @@ img {
   letter-spacing: var(--primary-letter-spacing);
 }
 
-.footer__wrapper {
+.footer__container {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
